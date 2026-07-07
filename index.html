@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EcoTourDB — Eco Tourism Database System</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== Navbar ===== -->
+<nav class="navbar">
+  <a href="index.html" class="nav-logo">
+    <span class="logo-mark">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 21c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M5 21c3-3 5-6 6-10"/></svg>
+    </span>
+    EcoTour<span class="db-suffix">DB</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="visitor.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="4"/><path d="M2 21v-1c0-3 3-5 7-5s7 2 7 5v1"/><path d="M19 8h4M21 6v4"/></svg>Visitor Registration</a></li>
+    <li><a href="reservation.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Reservations</a></li>
+    <li><a href="guides.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-7.5 7-13a7 7 0 10-14 0c0 5.5 7 13 7 13z"/><circle cx="12" cy="9" r="2.5"/></svg>Guides</a></li>
+    <li><a href="invoices.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg>Invoices</a></li>
+    <li><a href="feedback.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>Feedback</a></li>
+  </ul>
+</nav>
+
+<!-- ===== Hero ===== -->
+<header class="hero" style="background-image:url('assets/Eco-Tourism.webp')">
+  <div class="hero-content">
+    <span class="badge-pill">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 21c0-8 6-14 14-14 0 8-6 14-14 14z"/></svg>
+      SUSTAINABLE TRAVEL PLATFORM
+    </span>
+    <h1>Eco Tourism<span class="mint-line">Database System</span></h1>
+    <p class="lead">A complete platform for managing eco-tourism bookings, guides, and visitor experiences — built for responsible travel.</p>
+    <div class="hero-actions">
+      <a href="visitor.html" class="btn btn-solid-mint">Get Started
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="reservation.html" class="btn btn-outline-white">Book a Tour</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Stats bar ===== -->
+<section class="stats-bar">
+  <div class="stat">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3 3-5.5 6.5-5.5s6.5 2.5 6.5 5.5"/><circle cx="17" cy="8" r="3"/><path d="M15.5 14.7c2.7.6 4.5 2.7 4.5 5.3"/></svg>
+    <div><div class="stat-number">12,400+</div><div class="stat-label">Registered Visitors</div></div>
+  </div>
+  <div class="stat">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l5 8h-3l4 6h-4v6h-4v-6H6l4-6H7z"/></svg>
+    <div><div class="stat-number">6</div><div class="stat-label">Eco Destinations</div></div>
+  </div>
+  <div class="stat">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4.5L6 21l1.5-7.5L2 9h7z"/></svg>
+    <div><div class="stat-number">4.9 ★</div><div class="stat-label">Average Rating</div></div>
+  </div>
+  <div class="stat">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12c2-3 4-3 6 0s4 3 6 0 4-3 6 0"/><path d="M2 17c2-3 4-3 6 0s4 3 6 0 4-3 6 0"/></svg>
+    <div><div class="stat-number">850+</div><div class="stat-label">Guided Tours Done</div></div>
+  </div>
+</section>
+
+<!-- ===== Features ===== -->
+<section class="section section-cream">
+  <div class="section-header">
+    <span class="eyebrow">PLATFORM FEATURES</span>
+    <h2>Everything You Need</h2>
+    <p>From registering visitors to collecting feedback — manage every step of the eco-tourism journey in one place.</p>
+  </div>
+  <div class="feature-grid">
+    <a href="visitor.html" class="feature-card">
+      <div class="feature-icon icon-dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="4"/><path d="M2 21v-1c0-3 3-5 7-5s7 2 7 5v1"/><path d="M19 8h4M21 6v4"/></svg></div>
+      <h3>Visitor Registration</h3>
+      <p>Register new visitors with auto-generated IDs and manage profile details seamlessly.</p>
+      <span class="open-link">Open →</span>
+    </a>
+    <a href="reservation.html" class="feature-card">
+      <div class="feature-icon icon-mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+      <h3>Reservations</h3>
+      <p>Book tours, manage party sizes, and schedule memorable eco-adventure experiences.</p>
+      <span class="open-link">Open →</span>
+    </a>
+    <a href="guides.html" class="feature-card">
+      <div class="feature-icon icon-mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-7.5 7-13a7 7 0 10-14 0c0 5.5 7 13 7 13z"/><circle cx="12" cy="9" r="2.5"/></svg></div>
+      <h3>Tour Guides</h3>
+      <p>Connect visitors with certified local guides specializing in diverse ecosystems.</p>
+      <span class="open-link">Open →</span>
+    </a>
+    <a href="invoices.html" class="feature-card">
+      <div class="feature-icon icon-dark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h9l5 5v15H6z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></svg></div>
+      <h3>Invoices</h3>
+      <p>Generate transparent billing records and track payments for every reservation.</p>
+      <span class="open-link">Open →</span>
+    </a>
+    <a href="feedback.html" class="feature-card">
+      <div class="feature-icon icon-mint"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+      <h3>Feedback</h3>
+      <p>Collect visitor insights to continually improve our sustainable tourism offerings.</p>
+      <span class="open-link">Open →</span>
+    </a>
+    <div class="feature-card-image" style="background-image:url('assets/Eco-Tourism.webp')">
+      <div class="fci-content">
+        <h3>Explore Pakistan Sustainably</h3>
+        <span>From Hunza to Neelum Valley</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Quote banner ===== -->
+<section class="quote-banner" style="background-image:url('assets/Eco-Tourism.webp')">
+  <blockquote>
+    “Leave only footprints, take only memories.”
+    <span class="quote-caption">The Eco Tourism Promise</span>
+  </blockquote>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="cta-section section-cream">
+  <h2>Ready to Start Your Journey?</h2>
+  <p>Register as a visitor and begin booking eco-friendly tours with our expert local guides.</p>
+  <a href="visitor.html" class="btn btn-solid-dark">Register Now
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-brand">
+        <span class="logo-mark" style="width:28px;height:28px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 21c0-8 6-14 14-14 0 8-6 14-14 14z"/></svg>
+        </span>
+        EcoTour Database System
+      </div>
+      <p>Connecting travelers with Pakistan's northern mountains through sustainable, responsible eco-tourism experiences.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="visitor.html">Visitor Registration</a></li>
+        <li><a href="reservation.html">Reservations</a></li>
+        <li><a href="guides.html">Guides</a></li>
+        <li><a href="invoices.html">Invoices</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7 10-7"/></svg>sa7716834@gmail.com</div>
+      <div class="footer-contact-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6A19.8 19.8 0 012.1 4.2 2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg>+92 3335607613</div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Eco Tourism Database System. All rights reserved.</span>
+  </div>
+</footer>
+
+</body>
+</html>
